@@ -20,4 +20,3 @@ SetKeyDelay, 75
 
 
 mode = 1
-
