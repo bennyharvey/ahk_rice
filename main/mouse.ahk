@@ -7,7 +7,7 @@ XButton1 & WheelDown::Send {Volume_Down}
 
 
 
-#ifWinActive ahk_exe chrome.exe
+#ifWinActive ahk_exe brave.exe
 {									
     RButton::Send {RButton}
     RButton & LButton::Send ^w								

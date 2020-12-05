@@ -1,6 +1,6 @@
 ﻿
-#^r:: reload
-#^\::Suspend
+#^r:: Reload
+#^\:: Suspend
 
 
 
