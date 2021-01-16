@@ -3,8 +3,8 @@
 
 +#q::Send !{F4}
 
-CapsLock:: Esc
-^CapsLock:: CapsLock
+
+
 
 switchLayout() {
     Send {CtrlDown}
@@ -17,10 +17,6 @@ switchLayout() {
 +CapsLock:: 
     switchLayout()
 Return
-
-; CapsLock:: 
-;     switchLayout()
-; Return
 
 
 !F1::Send ^#{Left}
@@ -38,7 +34,7 @@ Return
 
 #g::
     IfWinNotExist, ahk_exe Code.exe
-        Run, C:\Users\UserB590\AppData\Local\Programs\Microsoft VS Code\Code.exe
+        Run, C:\Users\b590\AppData\Local\Programs\Microsoft VS Code\Code.exe
     GroupAdd, vsc_group, ahk_exe Code.exe
     if WinActive("ahk_exe Code.exe")
         GroupActivate, vsc_group, r
@@ -121,6 +117,4 @@ Return
 
 
 ; #Include %A_ScriptDir%\i3-desktops\window-mover.ahk
-
-
 
